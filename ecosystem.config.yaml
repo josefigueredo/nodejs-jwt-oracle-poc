@@ -1,0 +1,9 @@
+{
+  apps: [{
+    name: 'micro01',
+    script: './index.js',
+    watch: true,
+    instances: 4,
+    exec_mode: 'cluster',
+  }]
+}
